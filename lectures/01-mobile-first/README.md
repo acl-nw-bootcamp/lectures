@@ -1,4 +1,4 @@
-<s>## **Week 1: The View**
+## **Week 1: The View**
 # Class 1: Mobile-First Design & SMACSS
 
 [Schedule](#schedule) | [Announcements](#announcements) </br>
@@ -116,4 +116,4 @@
 
 ## Lab
 
-[Lab: Mobile First Design](https://github.com/acl-301n-fall-2017/lab-01-mobile)</s>
+[Lab: Mobile First Design](https://github.com/acl-301n-fall-2017/lab-01-mobile)
