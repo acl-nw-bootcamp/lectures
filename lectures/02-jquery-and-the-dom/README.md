@@ -16,7 +16,6 @@
 1. Lab Prep
 
 ### Announcements
-* 
 * Questions? Resources to share?
 
 <hr></hr>
@@ -82,4 +81,4 @@
   * (Context: 293-301; Essential: 310-325; Reference: 302-309)
 
 ## Lab
-[Lab: jQuery & DOM](https://github.com/cfpdx-301d-spring-2017/lab-02-jquery)
+[Lab: jQuery & DOM](https://github.com/acl-301n-fall-2017/lab-02-jquery)
