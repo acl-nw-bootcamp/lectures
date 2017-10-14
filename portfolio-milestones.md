@@ -38,7 +38,7 @@
 
 - Use event handlers and html `data-` attributes to implement tabs. 
 - Use jQuery to add your mock data to the DOM.
-- [README with more info](https://github.com/acl-301n-fall-2017/lab-03-jquery-events/blob/master/PORTFOLIO-ASSIGNMENT.md)
+- [README with more info](https://github.com/acl-301n-fall-2017/lab-03-jquery-and-events/blob/master/PORTFOLIO-ASSIGNMENT.md)
 
 
 ## templating
