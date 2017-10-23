@@ -74,4 +74,4 @@
 
 
 ## Lab
-[Lab 3: jQuery and events](https://github.com/acl-301n-fall-2017/lab-03-jquery-events)
+[Lab 3: jQuery and events](https://github.com/acl-301n-fall-2017/lab-03-jquery-and-events)

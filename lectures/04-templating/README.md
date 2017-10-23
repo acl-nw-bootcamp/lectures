@@ -63,5 +63,5 @@
 * [Learn Handlebars.js in 10 Minutes tutorial](http://tutorialzine.com/2015/01/learn-handlebars-in-10-minutes/) (Essential)
 
 ## Lab
-[4: Templating](https://github.com/acl-301n-fall-2017/lab-04-templating)
+[Lab 4: Templates](https://github.com/acl-301n-fall-2017/lab-04-templates)
 
