@@ -8,10 +8,12 @@ function Pet ( petData ) {
 
 Pet.prototype.toHtml = function () {
     // console.log( 'we are giving Handlebars.compile:', $( '#pet-template' ).html() );
+    // var template = document.getElementById('pet-template').innerHTML;
     var templateFiller = Handlebars.compile( $( '#pet-template' ).html() );
     // console.log( 'Handlebars.compile gives us a function:', template );
-    
-    this.face = "cute";
+
+    // this.face = this.name + " is " + this.type + "cute";
+    this.face = `${this.name} is ${this.type} cute!`;
     var filledTemplate = templateFiller( this );
     // console.log( 'template returns: ', filledTemplate );
 
