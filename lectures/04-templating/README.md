@@ -1,4 +1,4 @@
-## **Week 1: The View**
+## **Week 2: The View**
 # Class 4: Templating
 
 [Schedule](#schedule) | [Announcements](#announcements) </br>
