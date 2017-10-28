@@ -38,7 +38,6 @@
     * Follow-along to build a new article form
     * JSON???
         * What is it, and why do we use it?
-    * Run an `eslint` test
 
 ## Readings
 None for today!
