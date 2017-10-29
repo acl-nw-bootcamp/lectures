@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="styles/dark.css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="marked.js"></script>
+    <!-- <script type="text/javascript" src="app.js"></script> -->
+    <script type="text/javascript" src="highlight.pack.js"></script>
+    <script type="text/javascript" src="app-jquery.js"></script>
+  </head>
+  <body>
+    <h1>HTML Forms Example</h1>
+    <form name="new-article" id="newArticle">
+      <fieldset>
+        <legend>Meta Data</legend>
+        <label for="title">Title:</label>
+        <input name="title" id="title" type="text">
+        <label for="firstName">First Name:</label>
+        <input name="first-name" id="firstName" type="text">
+        <label for="lastName">Last Name:</label>
+        <input name="last-name" id="lastName" type="text">
+        <label for="publishedDate">Published On:</label>
+        <input name="published-date" id="publishedDate" type="text">
+        <label>Status</label><br>
+        <input type="radio" name="article-status" value="draft"> Draft<br>
+        <input type="radio" name="article-status" value="review"> Review<br>
+        <input type="radio" name="article-status" value="final"> Final<br>
+      </fieldset>
+      Article Content:<br>
+      <textarea name="content" id="content"></textarea><br>
+      <input type="button" value="Show Preview" id="showPreview">
+      <input type="submit" value="Add New Article"><br><br>
+      <div id="preview"></div>
+    </form>
+  </body>
+</html>

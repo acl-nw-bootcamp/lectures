@@ -1,0 +1,39 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+form fieldset {
+  border-radius: 4px;
+}
+
+form legend {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+form label {
+  display: inline-block;
+  width: 50%;
+}
+
+form input[type="text"] {
+  font-size: 20px;
+  width: 40%;
+  display: inline-block;
+}
+
+form textarea {
+  width: 100%;
+  height: 12em;
+}
