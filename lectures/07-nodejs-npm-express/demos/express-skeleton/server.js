@@ -18,7 +18,7 @@ app.use( express.static( './public' ) );
 // Here is one way to set up a route... bats...
 app.get( '/bat', function ( request, response ) {
     // console.log( response );
-    var numbers = 5 + 3;
+    // var numbers = 5 + 3;
 
     response.sendFile( '/public/bat-country.html', { root: '.'} );
     console.log( 'after sendFile' );
