@@ -65,4 +65,4 @@
 * [A Primer on SQL](https://leanpub.com/aprimeronsql/read) (Reference)
 
 ## Lab
-[Lab 8: SQL & Postgres](https://github.com/acl-301n-fall-2017/08-sql-intro-and-postgres)
+[Lab 8: SQL & Postgres](https://github.com/acl-301n-fall-2017/lab-08-sql-intro-and-postgres)
