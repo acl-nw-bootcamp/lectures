@@ -55,4 +55,4 @@
 * [Visual Guide to SQL Joins](http://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins)
 
 ## Lab
-[Lab 9: SQL Joins & Relations](https://github.com/acl-301n-fall-2017/09-sql-joins-relations)
+[Lab 9: SQL Joins & Relations](https://github.com/acl-301n-fall-2017/lab-09-joins)
