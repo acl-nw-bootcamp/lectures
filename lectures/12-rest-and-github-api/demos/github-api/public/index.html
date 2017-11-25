@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>client side routing</title>
+    <style>
+        html, body, main {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+
+        main.about {
+            background-color: red;
+        }
+
+        main.contact {
+            background-color: blue;
+        }
+
+        main.home {
+            background-color: yellow;
+        }
+
+        h1 {
+            margin: 10% auto;
+        }
+        
+        section {
+            font-size: 2em;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/repos">Repos</a></li>
+      </ul>
+    </header>
+    <main>
+        <h1></h1>
+        <section id="contact">
+            Name: Jane Doe<br>
+            Phone: 555-0125<br>
+            Email: janedoe@0125.co<br>
+        </section>
+        <section id="home">
+            <pre>
+                            ':.
+                    []_____
+                    /\      \
+                ___/  \__/\__\__
+            ---/\___\ |''''''|__\-- ---
+            ||'''| |''||''|''|
+            ``"""`"`""))""`""`
+            </pre>
+        </section>
+        <section id="about">
+            a - b - o - u - t
+        </section>
+        <section id="repos">
+           <ul></ul>
+        </section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+
+
+    <script type="text/javascript" src='./scripts/models/repos.js'></script>
+    <script type="text/javascript" src='./scripts/githubToken.js'></script>
+
+    <script type="text/javascript" src='./scripts/views/homeView.js'></script>
+    <script type="text/javascript" src='./scripts/views/aboutView.js'></script>
+    <script type="text/javascript" src='./scripts/views/contactView.js'></script>
+    <script type="text/javascript" src='./scripts/views/reposView.js'></script>
+
+    <script type="text/javascript" src='./scripts/controllers/homeController.js'></script>
+    <script type="text/javascript" src='./scripts/controllers/aboutController.js'></script>
+    <script type="text/javascript" src='./scripts/controllers/contactController.js'></script>
+    <script type="text/javascript" src='./scripts/controllers/reposController.js'></script>
+    <script type="text/javascript" src='./scripts/controllers/routes.js'></script>
+  </body>
+</html>
