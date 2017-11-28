@@ -37,38 +37,38 @@
 
 Topic 1 - REST & APIs
 
-    * REST
-        * Constraints - what makes something RESTful?
-            * client - server relationship
-            * stateless server
-            * uses HTTP methods
-            * URLs are easy to understand
-            * Data is sent as JSON or XML
+* REST
+    * Constraints - what makes something RESTful?
+        * client - server relationship
+        * stateless server
+        * uses HTTP methods
+        * URLs are easy to understand
+        * Data is sent as JSON or XML
             
-    * API's
-        * What is an API?
-        * What is a RESTful API?
-            * an API that follows the following guidelines:
-                * has a base url
-                * uses HTTP methods: GET, PUT, POST, DELETE 
-                * sends an internet media type (like JSON or XML)
-        * [programmableweb.com directory](https://www.programmableweb.com/category/all/apis)
-        * Examples:
-            * [the cat api (note: returns XML!)](http://thecatapi.com/)
-            * [marvel api (needs a key)](http://developer.marvel.com/docs)
+* API's
+    * What is an API?
+    * What is a RESTful API?
+        * an API that follows the following guidelines:
+            * has a base url
+            * uses HTTP methods: GET, PUT, POST, DELETE 
+            * sends an internet media type (like JSON or XML)
+    * [programmableweb.com directory](https://www.programmableweb.com/category/all/apis)
+    * Examples:
+        * [the cat api (note: returns XML!)](http://thecatapi.com/)
+        * [marvel api (needs a key)](http://developer.marvel.com/docs)
 
-    * Demo - How
-        * Head to GitHub and see how to request a token to be able to access the API appropriately.
-           * Login at GitHub.com
-           * In the upper right, click on your face, and head to settings
-           * Scroll to the Developer Settings section on the left side.
-           * Click on Personal access tokens
-           * Now click Generate new token, towards the upper right
-           * Confirm login.
-           * Enter token description as ‘repos’ or something simple.
-           * Check the single ‘repo’ check box for repo scope (this will automatically check the sub boxes).
-           * Now scroll to the bottom and select Generate token
-           * Save this token! GitHub will only display it to you **one time**
+* Demo - How
+    * Head to GitHub and see how to request a token to be able to access the API appropriately.
+       * Login at GitHub.com
+       * In the upper right, click on your face, and head to settings
+       * Scroll to the Developer Settings section on the left side.
+       * Click on Personal access tokens
+       * Now click Generate new token, towards the upper right
+       * Confirm login.
+       * Enter token description as ‘repos’ or something simple.
+       * Check the single ‘repo’ check box for repo scope (this will automatically check the sub boxes).
+       * Now scroll to the bottom and select Generate token
+       * Save this token! GitHub will only display it to you **one time**
 
 ## Readings
 - ["How I Explained REST to My Brother*"](https://gist.github.com/brookr/5977550)
